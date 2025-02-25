@@ -10,7 +10,6 @@ function numero () {
   return Math.floor(Math.random()* 100) + 1;
 }
  
-
 export default function Home() {
   const [hide, setHide] = useState(false);
   const aula = 2;
