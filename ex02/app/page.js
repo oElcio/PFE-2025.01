@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import styles from "./page.module.css";
-import { Dado } from "@/components/Dado";
+import { Dado } from "../componentes/dado";
 
 export default function Home() {
 
-  function randowNumber(){
+  function numero_aleatorio(){
     setCount(Math.floor(Math.random() * 6) + 1);
   }
   
@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
 
-      <button onClick={ randowNumber } className={styles.button}>
+      <button onClick={ numero_aleatorio } className={styles.button}>
           Clique aqui!! 
         </button>
 
