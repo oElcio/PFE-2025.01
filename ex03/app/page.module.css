@@ -1,29 +1,24 @@
-.app {
-  text-align: center;
-  margin-top: 50px;
+.divPai{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    gap: 24px;
 }
 
-.jogo {
-  display: inline-block;
-  border: 2px solid #000;
-  padding: 20px;
-  border-radius: 10px;
+.titulo{
+  font-weight: 500; 
 }
 
-.status, .resultado {
-  margin-bottom: 20px;
+.divDado{
+  display: flex; 
+  gap: 24px; 
 }
 
-.acoes button {
-  font-size: 16px;
-  padding: 10px 20px;
-  cursor: pointer;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-.acoes button:hover {
-  background-color: #45a049;
+.divKey{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }

@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dado-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+    justify-content: center;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+h2{
+  color: black;
+}
+
+  h3,li {
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 24px;
+    text-align: center; 
+  }
+  
+  
+  .p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  .divDado {
+    display: flex;
+    gap: 24px;
+    
+  }
+  
+  
+  .divKey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dados{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+  }
